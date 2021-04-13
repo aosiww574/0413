@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  touch-action: pan-y;
+}
+em,
+i {
+  font-style: normal;
+}
+.all {
+  max-width: 750px;
+  margin: 0 auto;
+}
+.all img {
+  vertical-align: top;
+  width: 100%;
+}
+.all .wrapperOfDownload {
+  position: relative;
+  width: 100%;
+}
+.all .wrapperOfDownload .download {
+  display: block;
+  width: 75%;
+  position: absolute;
+  animation-name: Zoom;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  top: 10px;
+  left: 12.5%;
+}
+.all .carousel1 {
+  position: relative;
+  max-width: 750px;
+  height: 5rem;
+  /* .swiper-container .swiper-slide { */
+}
+.all .carousel1 .swiper-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.all .carousel1 #s1 {
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.all .carousel1 #s1 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 32%;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: transparent;
+}
+.all .carousel1 #s1 .swiper-slide img {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+.all .wrapperConnect {
+  position: relative;
+}
+.all .wrapperConnect p {
+  position: absolute;
+  width: 100%;
+  color: yellow;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+}
+.all .wrapperConnect p em {
+  float: left;
+  margin-left: 0.3rem;
+  font-size: 0.34rem;
+  font-weight: 600;
+  line-height: 1em;
+}
+.all .wrapperConnect p span {
+  float: left;
+  margin-top: 0.1rem;
+  margin-left: 0.2rem;
+  font-size: 0.24rem;
+  font-weight: 600;
+  line-height: 1em;
+}
+.all .wrapperConnect .connect {
+  width: 25%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.all .wrapperConnect ul {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 35px;
+  left: 5%;
+}
+.all .wrapperConnect ul li {
+  background-color: gray;
+  float: left;
+  width: 65%;
+  height: 0.58rem;
+  border-radius: 5px;
+  margin-top: 0.16rem;
+}
+.all .wrapperConnect ul li em {
+  float: left;
+  text-align: center;
+  height: 0.42rem;
+  line-height: 0.58em;
+  padding: 0.16rem 0 0 0;
+  width: 1.16rem;
+  font-size: 0.38rem;
+  color: #fff;
+  background-color: red;
+  border-radius: 5px 0 0 5px;
+}
+.all .wrapperConnect ul li span {
+  float: left;
+  height: 0.58rem;
+  width: 3.71rem;
+  font-size: 0.38rem;
+  color: #000;
+  background-color: yellow;
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+  line-height: 0.58rem;
+}
+.all .wrapperConnect ul li span i {
+  color: red;
+  font-size: 0.38rem;
+}
+.all .wrapperConnect ul button {
+  width: 20%;
+  height: 0.58rem;
+  margin-top: 0.16rem;
+  margin-left: 5%;
+  border: none;
+  border-radius: 4px;
+  background-color: #7bf;
+  font-weight: 700;
+}
+.description {
+  position: relative;
+}
+.description div {
+  position: absolute;
+  top: 0;
+  width: 84%;
+  height: 0.8rem;
+  left: 8%;
+}
+.description div p {
+  color: #fff;
+  position: absolute;
+  font-size: 0.24rem;
+  line-height: 0.35rem;
+  top: 0;
+}
+.description div p span {
+  font-size: 0.24rem;
+  color: yellow;
+}
+.carousel2Wrapper {
+  position: relative;
+  max-width: 750px;
+}
+.carousel2Wrapper .carousel2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.carousel2Wrapper .carousel2 .swiper-container {
+  width: 90%;
+  height: auto;
+}
+@keyframes Zoom {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+html {
+  font-size: 16px;
+}
+@media (min-width: 375px) and (max-width: 750px) {
+  body {
+    font-size: calc(1.2rem + (1.3-1.2) * ((100vw - 375px) / (750 - 375)));
+    color: blue;
+  }
+}

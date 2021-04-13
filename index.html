@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="dist/css/swiper-bundle.min.css"> -->
+</head>
+
+<body>
+    <div class="all">
+        <img src="./pit/header.jfif" alt="header">
+        <img src="./pit/2.jfif" alt="第二張圖">
+
+        <div class="wrapperOfDownload">
+            <img src="./pit/3.jfif" alt="第三張圖">
+            <a href="#" class="download">
+                <img src="./pit/download.png" alt="立即下載">
+            </a>
+        </div>
+
+        <div class="carousel1">
+            <img src="./pit/4.jfif" alt="輪播圖" class="carouselIMG">
+            <!-- <div class="gray"></div> -->
+
+            <div class="swiper-container" id="s1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./pit/c0.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./pit/c1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./pit/c2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./pit/c3.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./pit/c4.png" alt=""></div>
+                    <!-- <div class="swiper-slide"><img src="./pit/c5.png" alt=""></div> -->
+                    <!-- <div class="swiper-slide"><img src="https://fakeimg.pl/250x450/fff/f00/" alt=""></div>
+                    <div class="swiper-slide"><img src="https://fakeimg.pl/250x450/000/0f0/" alt=""></div>
+                    <div class="swiper-slide"><img src="https://fakeimg.pl/250x450/000/00f/" alt=""></div>
+                    <div class="swiper-slide"><img src="https://fakeimg.pl/250x450/000/ff0/" alt=""></div>
+                    <div class="swiper-slide"><img src="https://fakeimg.pl/250x450/000/0ff/" alt=""></div>
+                    <div class="swiper-slide"><img src="https://fakeimg.pl/250x450/000/f0f/" alt=""></div> -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination" id="s1p"></div>
+            </div>
+
+
+
+            <!--  -->
+        </div>
+
+        <div class="wrapperConnect">
+            <img src="./pit/5.jfif" alt="在線客服背景">
+            <p>
+                <em>線路中心</em>
+                <span>
+                    ms數字越小速度越快
+                </span>
+            </p>
+            <img src="./pit/9.png" alt="在線客服" class="connect">
+            <ul>
+
+                <li>
+                    <em>20ms</em>
+                    <span>www.<i>956qp9</i>.com</span>
+                </li>
+                <li>
+                    <em>18ms</em>
+                    <span>www.<i>956qp5</i>.com</span>
+                </li>
+                <li>
+                    <em>7ms</em>
+                    <span>www.<i>956qp6</i>.com</span>
+                </li>
+                <button>進入遊戲</button>
+                <button>進入遊戲</button>
+                <button>進入遊戲</button>
+            </ul>
+        </div>
+
+        <div class="description">
+            <img src="./pit/6.jfif" alt="公司介紹">
+            <div>
+                <p>全球頂級線上娛樂中心，10年經典品牌。卓越品質，精心打造！每日同時在線玩家上萬人，隨時隨地可與全國各地的玩家在<span>《956棋牌》</span>切磋。
+                    956棋牌唯一指定官網：<span>956.one下載APP註冊立即送956元！</span>擁有最全的：<span>棋牌遊戲、捕魚游戲、真人視訊、電子遊藝、體育投注、彩票購買</span>（AG、BBIN等國際知名平台），全面支持支付寶、微信、銀行卡等充值；
+                    <span>真錢1:1存提秒到賬！</span>24小時在線客服為您服務！
+                </p>
+            </div>
+        </div>
+
+        <div class="carousel2Wrapper">
+            <img src="./pit/7.jfif" alt="輪播圖背景">
+            <div class="carousel2">
+                <div class="swiper-container" id="s2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./pit/cc1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./pit/cc2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./pit/cc3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./pit/cc4.png" alt=""></div>
+                        <!-- <div class="swiper-slide"><img src="./pit/700_350.png" alt=""></div>
+                        <div class="swiper-slide"><img src="https://fakeimg.pl/700x350/333/f00/" alt=""></div>
+                        <div class="swiper-slide"><img src="https://fakeimg.pl/700x350/333/0f0/" alt=""></div>
+                        <div class="swiper-slide"><img src="https://fakeimg.pl/700x350/333/00f/" alt=""></div> -->
+                    </div>
+                    <!-- pagination -->
+                    <div class="swiper-pagination" id="s2p"></div>
+                </div>
+            </div>
+        </div>
+
+        <img src="./pit/8.jfif" alt="">
+    </div>
+
+
+</body>
+<!-- swiper js -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+<script>
+    // 設定html文字大小
+    var isPc = false;
+    (function (defaultFontSize, defaultScreenWidth) {
+        var htmlNode = document.getElementsByTagName('html')[0];
+        function resize() {
+            var screenWidth = document.body.offsetWidth;
+            var fontSize = (screenWidth / defaultScreenWidth) * defaultFontSize;
+            if (fontSize > 100) fontSize = 100;
+            htmlNode.style.fontSize = fontSize + 'px';
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+            resize();
+        });
+        window.addEventListener('resize', resize);
+    })(100, 750);
+
+    // 下面的輪播圖
+    // var mySwiper = new Swiper('.swiper-container', {
+    var mySwiper = new Swiper('#s2', {
+        // 循環模式選項
+        loop: true,
+        autoplay: {
+            delay: 1000,
+            disableOnInteraction: false
+        },
+        grabCursor: true,
+        pagination: {
+            // el: '.swiper-pagination',
+            el: '#s2p',
+        },
+    })
+
+    // 滑鼠覆蓋停止自動切換
+    mySwiper.el.onmouseover = function () {
+        mySwiper.autoplay.stop();
+    }
+
+    // 滑鼠離開開始自動切換
+    mySwiper.el.onmouseout = function () {
+        mySwiper.autoplay.start();
+    }
+
+    // 第一個輪播圖
+    var swiper = new Swiper('#s1', {
+        // slidesPerView: 5,
+        slidesPerView: 'auto',
+        spaceBetween: 10,
+        grabCursor: true,
+        autoplay: {
+            delay: 1500,
+            disableOnInteraction: false
+        },
+        loop: true,
+        pagination: {
+            // el: '.swiper-pagination',
+            el: '#s1p',
+            clickable: true,
+        },
+    });
+
+    // 滑鼠覆蓋停止自動切換
+    // Swiper.el.onmouseover = function () {
+    //     mySwiper.autoplay.stop();
+    // }
+
+    // // 滑鼠離開開始自動切換
+    // Swiper.el.onmouseout = function () {
+    //     mySwiper.autoplay.start();
+    // }
+</script>
+
+
+</html>
