@@ -17,6 +17,7 @@ img {
   max-width: 750px;
   margin: 0 auto;
   height: 26.3rem;
+  height: 26.8rem;
   overflow: hidden;
 }
 .all .wrapperOfDownload {
@@ -38,7 +39,8 @@ img {
   left: 12.5%;
 }
 .all .bg3 {
-  height: 17.5rem;
+  height: 17.8rem;
+  height: 17.9rem;
   background-image: url(pit/bg-2300.png);
 }
 .all .carousel1 {
@@ -103,11 +105,7 @@ img {
 }
 .carousel2Wrapper .bg4 {
   position: relative;
-  top: 1.8rem;
-  top: 1.9rem;
-  top: 0;
-  top: 2.2rem;
-  top: 2.5rem;
+  top: 3rem;
   left: -0.8rem;
   left: 5%;
   width: 90%;
@@ -115,9 +113,8 @@ img {
 .carousel2Wrapper .carousel2 {
   position: absolute;
   top: 1.5rem;
-  left: 5%;
-  width: 100%;
-  width: 90%;
+  left: 7.5%;
+  width: 85%;
 }
 .carousel2Wrapper .carousel2 .swiper-container {
   width: 90%;
